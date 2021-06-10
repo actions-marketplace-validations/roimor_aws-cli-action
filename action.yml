@@ -1,0 +1,9 @@
+name: 'AWS CLI'
+description: 'GitHub Action for aws-cli'
+author: roimor
+branding:
+  icon: 'terminal'
+  color: 'green'
+runs:
+  using: docker
+  image: Dockerfile
