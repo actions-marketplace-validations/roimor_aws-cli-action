@@ -4,4 +4,4 @@ RUN pip3 --quiet --no-cache-dir install awscli
 
 COPY . /
 
-ENTRYPOINT ["aws"]
+ENTRYPOINT ["sh", "-c", "aws $AWS_COMMAND"]
